@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: sabilawp/growthai:latest
     container_name: biomedis-app
     ports:
       - "8080:80"
