@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Web-app specific
+web-app/node_modules
+web-app/vendor
+web-app/.env
+web-app/.env.backup
+web-app/.phpunit.result.cache
+web-app/Homestead.json
+web-app/Homestead.yaml
+web-app/npm-debug.log
+web-app/yarn-error.log
+web-app/.DS_Store
+web-app/storage/*.key
+web-app/storage/logs/*.log
+web-app/storage/framework/cache/*
+web-app/storage/framework/sessions/*
+web-app/storage/framework/views/*
+web-app/public/hot
+web-app/public/storage
+web-app/bootstrap/cache/*
+
+# AI service
+ai-service/__pycache__
+ai-service/*.pyc
+ai-service/.pytest_cache
+ai-service/venv
+ai-service/.venv
+
+# Tests
+web-app/tests
+web-app/phpunit.xml
+
+# OS
+.DS_Store
+Thumbs.db
